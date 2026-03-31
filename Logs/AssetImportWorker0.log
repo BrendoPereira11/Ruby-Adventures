@@ -21611,3 +21611,627 @@ Memory consumption went from 159.7 MB to 150.7 MB.
 Total: 12.103100 ms (FindLiveObjects: 0.926400 ms CreateObjectMapping: 0.514200 ms MarkObjects: 5.044600 ms  DeleteObjects: 5.616700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 711.196747 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(cb8aaede6e164ad409c2e7334fc2fe32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerController.cs using Guid(cb8aaede6e164ad409c2e7334fc2fe32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44c90b24277fa970a22963e9350f3b52') in 0.2074262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236862 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles
+  artifactKey: Guid(7b73e871a514b8e4b84a1bf98c78e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles using Guid(7b73e871a514b8e4b84a1bf98c78e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc449ff96760db78bcfe7a54d8b6849f') in 0.0005901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.921843 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles
+  artifactKey: Guid(7b73e871a514b8e4b84a1bf98c78e9c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles using Guid(7b73e871a514b8e4b84a1bf98c78e9c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8b88b9b31793474b55f7ca9133ff186') in 0.0106985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.268148 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles/Tile1.png
+  artifactKey: Guid(83562e456599cfd48bcbd46817db0dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles/Tile1.png using Guid(83562e456599cfd48bcbd46817db0dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c46ac043221c52c324b7c069c38e3701') in 0.1028882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.305188 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles/Tile2.png
+  artifactKey: Guid(8194d535e47ba3c41944d02f22ee9b7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles/Tile2.png using Guid(8194d535e47ba3c41944d02f22ee9b7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ce3f4632c09a20e2d62f69589e601f8') in 0.056582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.257469 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tile2.png
+  artifactKey: Guid(8194d535e47ba3c41944d02f22ee9b7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tile2.png using Guid(8194d535e47ba3c41944d02f22ee9b7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5ea6fd839acfb5f8f73a09daf952a82') in 0.0179766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.096460 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles/FirstTile.asset
+  artifactKey: Guid(1ff52dc2457c548429291e9751b923cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles/FirstTile.asset using Guid(1ff52dc2457c548429291e9751b923cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b024f7e0706dbf8a9aff83711c11a14') in 0.026302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911505 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles/FirstTile.asset
+  artifactKey: Guid(1ff52dc2457c548429291e9751b923cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles/FirstTile.asset using Guid(1ff52dc2457c548429291e9751b923cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1128a04a0d6963fc5522ef599e378d90') in 0.0386291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.967372 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/BackgroundPipes.prefab
+  artifactKey: Guid(eab72053b3b4f41488b5877a984da91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/BackgroundPipes.prefab using Guid(eab72053b3b4f41488b5877a984da91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b9e5c42e507f7195282a4b5b7e77368') in 0.4538329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/DuckoCollectable.prefab
+  artifactKey: Guid(f9f1bcc6210ca2849b4d2241b3cbb795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/DuckoCollectable.prefab using Guid(f9f1bcc6210ca2849b4d2241b3cbb795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3f7ed75d6f0658f0673b256c8d0d168') in 0.2295559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeChocBall.prefab
+  artifactKey: Guid(140a8c9b6a78d0e40ab90ec6d7917996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeChocBall.prefab using Guid(140a8c9b6a78d0e40ab90ec6d7917996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b9fb8b1923ac2c3bb7dcbd3b566870f') in 0.0353182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/DuckoNPC.prefab
+  artifactKey: Guid(8870701c975ba994e88da1c8a4168777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/DuckoNPC.prefab using Guid(8870701c975ba994e88da1c8a4168777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70383367b87cb0778f11122c2276a61e') in 0.1796091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeSlice.prefab
+  artifactKey: Guid(bc86634c6bc2bed479a81d37da8c5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeSlice.prefab using Guid(bc86634c6bc2bed479a81d37da8c5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '366b2941e58a61ecd2fdda98b3a45698') in 0.0317963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/DuckoDamageZone.prefab
+  artifactKey: Guid(ceee4f3cf275a21449513867f68c71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/DuckoDamageZone.prefab using Guid(ceee4f3cf275a21449513867f68c71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd450640f3b4ed7417883502ca8c71e01') in 0.0370434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/DonutYellow.prefab
+  artifactKey: Guid(71e4956f1d326cf499b09b7c50746320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/DonutYellow.prefab using Guid(71e4956f1d326cf499b09b7c50746320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0455f04c0ca910a38da9b26e78fbd028') in 0.0552103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/DrainCover.prefab
+  artifactKey: Guid(99f2f350f9ed65a4191ab84528e0d051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/DrainCover.prefab using Guid(99f2f350f9ed65a4191ab84528e0d051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aab1148b810d847955e4ff39f8fd4ccc') in 0.0237634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/FixedParticleEffect.prefab
+  artifactKey: Guid(96e172b306ca28a43aac89dd6523ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/FixedParticleEffect.prefab using Guid(96e172b306ca28a43aac89dd6523ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ce6d8fd619ece5be857970abd0d50c') in 0.0157029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Fork.prefab
+  artifactKey: Guid(4412b70a61d17294da5af453c141cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Fork.prefab using Guid(4412b70a61d17294da5af453c141cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a1337a14f7146f1eb9a5d65812c40a') in 0.0399821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/DialogueBubble.prefab
+  artifactKey: Guid(b8ae08010b021e64fa35289c833a4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/DialogueBubble.prefab using Guid(b8ae08010b021e64fa35289c833a4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '202c2b0434a1b69ae8b97d3a270b8ef6') in 0.0157657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/ExplosionEffectCandy.prefab
+  artifactKey: Guid(c9edb1715f3ae764bbb5f0b97877df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/ExplosionEffectCandy.prefab using Guid(c9edb1715f3ae764bbb5f0b97877df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eee2525ea2583d854c9d0b43c15f4a8a') in 0.0080336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/ExtraGrassTiles_3.prefab
+  artifactKey: Guid(0b7f8f2974a77b447ad1ce7bd7efdb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/ExtraGrassTiles_3.prefab using Guid(0b7f8f2974a77b447ad1ce7bd7efdb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95768d39be847f6485a979aab22a0f34') in 0.0137173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Ducko.prefab
+  artifactKey: Guid(1c50d90bfe323034184d301e9504bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Ducko.prefab using Guid(1c50d90bfe323034184d301e9504bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ffade677a7527adb0b26dd588bfe5ed') in 0.3925495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeMoonCake.prefab
+  artifactKey: Guid(71f19218316aabc41933e1470da30fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeMoonCake.prefab using Guid(71f19218316aabc41933e1470da30fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ee62ab4bbe82f739f5c259ca476bd51') in 0.0472477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/ExtraGrassTiles_4.prefab
+  artifactKey: Guid(ea3ee4abeb2a65343920fa1e839b7d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/ExtraGrassTiles_4.prefab using Guid(ea3ee4abeb2a65343920fa1e839b7d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14bf84fa36c17909d7f422073d312671') in 0.0176131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/GrassSmall.prefab
+  artifactKey: Guid(8f6da9ba4df302d45aaa4209a332aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/GrassSmall.prefab using Guid(8f6da9ba4df302d45aaa4209a332aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d27fc3b0cee57ca9aa979a1cfe1573') in 0.0279909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeMacaron.prefab
+  artifactKey: Guid(8bce5d5713cf9e64b885bdc24fe805c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeMacaron.prefab using Guid(8bce5d5713cf9e64b885bdc24fe805c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2cdd6f7d66200a97c5182059b685e71') in 0.0425802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/DonutPink.prefab
+  artifactKey: Guid(297a88f6c129b5546b03ee0a9dcd571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/DonutPink.prefab using Guid(297a88f6c129b5546b03ee0a9dcd571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6f850aafc58375f9e03e1608fedfe2d') in 0.0344618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/CandyCollectable2.prefab
+  artifactKey: Guid(463c1b2e414089948afddde6f354fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/CandyCollectable2.prefab using Guid(463c1b2e414089948afddde6f354fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c933129abcd67a80329c40e5e944389f') in 0.0396996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/CandyCollectable.prefab
+  artifactKey: Guid(3395987270faba14c8d14dffb54b40c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/CandyCollectable.prefab using Guid(3395987270faba14c8d14dffb54b40c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41951927f80408d1bd96ce02ac55f153') in 0.0304207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/DrainCover.prefab
+  artifactKey: Guid(6583b09b286f135429dd0f37e7f10869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/DrainCover.prefab using Guid(6583b09b286f135429dd0f37e7f10869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e813aaf00fd577e6de17edd860dbbd91') in 0.0147361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeSliceTall.prefab
+  artifactKey: Guid(ce0ac729abeabb246b2b18dd626ff40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/CakeSliceTall.prefab using Guid(ce0ac729abeabb246b2b18dd626ff40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb220c5bd9e37dbaaf751e03017903e4') in 0.0442229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/CloudShadow.prefab
+  artifactKey: Guid(5b0415fce89324e44bed16fccbe3bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/CloudShadow.prefab using Guid(5b0415fce89324e44bed16fccbe3bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceb27bae388fc36d197e2bd06c9a9a0d') in 0.0402021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.090837 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/HitEffect.prefab
+  artifactKey: Guid(17da090cbd3ec504ba4da073aa459073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/HitEffect.prefab using Guid(17da090cbd3ec504ba4da073aa459073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da3c5527f0c5c0f2b730ae2290d6d9de') in 0.0132169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/LittleCreature_0.prefab
+  artifactKey: Guid(b9bca066eff5e1543860f98bb50ec392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/LittleCreature_0.prefab using Guid(b9bca066eff5e1543860f98bb50ec392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '393946bdbc7d5db2900ebfe35898b097') in 0.1742917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/TreeBig.prefab
+  artifactKey: Guid(ac0100a5813cb124b8e3606bf0fb8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/TreeBig.prefab using Guid(ac0100a5813cb124b8e3606bf0fb8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace0c778dca2e4b11956b0d3c9be9500') in 0.0390377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectCandy.prefab
+  artifactKey: Guid(848f0e506df10d7498e310399139d6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectCandy.prefab using Guid(848f0e506df10d7498e310399139d6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '229a8b22af2a693e6707c66e3c6b9b55') in 0.0248567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/RubyCollectable.prefab
+  artifactKey: Guid(dbd60687588720346b273add3eac5112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/RubyCollectable.prefab using Guid(dbd60687588720346b273add3eac5112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad00b880a4c4e2c226b4adeea737154') in 0.0301156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/Tree3.prefab
+  artifactKey: Guid(297208011a8788b47bb07756a7f13f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/Tree3.prefab using Guid(297208011a8788b47bb07756a7f13f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb6b51d674d469ba59a1b0a6cbed831') in 0.0331027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectRuby.prefab
+  artifactKey: Guid(2d118a68afb70451b968ccf62b07303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectRuby.prefab using Guid(2d118a68afb70451b968ccf62b07303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c850adef453957e2fa9cd672b3cdbf58') in 0.0144036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/SugarLand/SugarLandPalette.prefab
+  artifactKey: Guid(a2faa4a10e549d646aa8f33fd66a2007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/SugarLand/SugarLandPalette.prefab using Guid(a2faa4a10e549d646aa8f33fd66a2007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c85827a023ec4f04a8f676a35f9ffd45') in 0.4192534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.236697 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/Mushrooms.prefab
+  artifactKey: Guid(f0aef93b7b709614bad933c3fc366bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/Mushrooms.prefab using Guid(f0aef93b7b709614bad933c3fc366bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76b16fd67b5e1b6dfd87ff6324be4913') in 0.0425406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Shadow.prefab
+  artifactKey: Guid(4c897db3bd9e83341948111a73e9de03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Shadow.prefab using Guid(4c897db3bd9e83341948111a73e9de03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c4a59c2840c2e0171c5f5bc12a6ca2e') in 0.0474969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/SprinklesChoc.prefab
+  artifactKey: Guid(e36093e726c35964f902a985fb1da747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/SprinklesChoc.prefab using Guid(e36093e726c35964f902a985fb1da747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5bcdb09428e1a9f75bf9fbe96acddbc') in 0.0227213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/TreeLittle.prefab
+  artifactKey: Guid(048656945998e00439f660131a7f1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/TreeLittle.prefab using Guid(048656945998e00439f660131a7f1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b8746b052e6f360f00332094b7d0760') in 0.0245108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/TreeShadow.prefab
+  artifactKey: Guid(6384998161b2ae845973711aecaadd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/Environment/TreeShadow.prefab using Guid(6384998161b2ae845973711aecaadd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d01eb6a0164737ae75b6c7630b270f3') in 0.0219232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/RubyDamageZone.prefab
+  artifactKey: Guid(729bc9a5961b27044ba69be8f9f8d371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/RubyDamageZone.prefab using Guid(729bc9a5961b27044ba69be8f9f8d371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e2d59a8534c46a554f0a071100e228e') in 0.0185101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/RubyEnemy.prefab
+  artifactKey: Guid(fabc6663cd332f94d9c3b6a1e917070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ruby/RubyEnemy.prefab using Guid(fabc6663cd332f94d9c3b6a1e917070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '097a1fc62b6de83ce9a68b71e4548477') in 0.1007079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.843020 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+  artifactKey: Guid(9e1c97fc44f9a8744b61b58f72c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx using Guid(9e1c97fc44f9a8744b61b58f72c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '720f79bf449bd411abc8d06005f3ea9c') in 1.2104699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.326219 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
+  artifactKey: Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab using Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a39777cc3a681c2a897405f8ddbbbfe7') in 0.5375925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1965
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.575786 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectList.prefab
+  artifactKey: Guid(ad83bc56407925d44a77a5bd01cd6783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectList.prefab using Guid(ad83bc56407925d44a77a5bd01cd6783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '070d5bdc2bbdb1ed4af705c0c3d57fd5') in 0.0036069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab
+  artifactKey: Guid(f6b1a0fe75d5009449cf55ae76220e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab using Guid(f6b1a0fe75d5009449cf55ae76220e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f9fc623cba2c198e550bbe0915d7662') in 0.0218534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab
+  artifactKey: Guid(5088d0220f0c4df439cf06c5c270eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab using Guid(5088d0220f0c4df439cf06c5c270eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1508266e8a5ea2f71619287ec9b39c37') in 0.0038255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab
+  artifactKey: Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab using Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '337392fe4c180930b1d8ee95b4245473') in 0.0029848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab
+  artifactKey: Guid(ca3e294656861a64b8aeeb9f916da0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab using Guid(ca3e294656861a64b8aeeb9f916da0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78952312ef84fb759ac53ba581c9b408') in 0.0026635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022469 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab
+  artifactKey: Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab using Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2c18863a238a5997d5a7244d1c77a88') in 0.0047211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041076 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/GrassSmall (2).prefab
+  artifactKey: Guid(2278cd26774cf6042b99bd82587c81e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/GrassSmall (2).prefab using Guid(2278cd26774cf6042b99bd82587c81e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '065eedcaa1e12f36e7a482ca846218a9') in 0.0252911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/GrassSmall (18).prefab
+  artifactKey: Guid(0a55ef05567d00f40963dcdc444e8f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/Ducko/Environment/GrassSmall (18).prefab using Guid(0a55ef05567d00f40963dcdc444e8f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c35346c11333cf4bb7185ca2b6ec2b6') in 0.014273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Gulaabjamun.prefab
+  artifactKey: Guid(6068aa7412a84ba499b6a05f90e551bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Gulaabjamun.prefab using Guid(6068aa7412a84ba499b6a05f90e551bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43f0fe2c5a65248579ac433152654f66') in 0.0256226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/HouseGingerbread.prefab
+  artifactKey: Guid(ed8bcda263e2a8d4a93a1e2620151b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/HouseGingerbread.prefab using Guid(ed8bcda263e2a8d4a93a1e2620151b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55b6c59b06e1501c068d1cfb7d4da26d') in 0.0461589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Jellies.prefab
+  artifactKey: Guid(7414473754f2ea3458876ee8b7a981ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/SugarLand/Environment/Jellies.prefab using Guid(7414473754f2ea3458876ee8b7a981ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00c0b6accec0c4e43b1c45a5875338fc') in 0.0260694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.292278 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx
+  artifactKey: Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx using Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ea73047ab1b11bc657fae9935363efd') in 0.1248273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.356525 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/BackgroundPipes.png
+  artifactKey: Guid(fa452822a93c0174595c46bb770164ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/BackgroundPipes.png using Guid(fa452822a93c0174595c46bb770164ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e059394a0cd16b78eddfbd6304474443') in 0.0707827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/CakePistachioSlice.png
+  artifactKey: Guid(56be4dcb817f2024a96ac0d2bf33029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/CakePistachioSlice.png using Guid(56be4dcb817f2024a96ac0d2bf33029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06e4078281376a367f1da6286b98081c') in 0.0159423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/UI/CharacterPortrait.png
+  artifactKey: Guid(374193bc7008fa34ab9b2bbca376937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ruby/UI/CharacterPortrait.png using Guid(374193bc7008fa34ab9b2bbca376937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99b9af21d99ee1e2be0a34c835594f19') in 0.0352902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/CakeChocBall.png
+  artifactKey: Guid(9e1f5e74528314a47a56f47519c8fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/CakeChocBall.png using Guid(9e1f5e74528314a47a56f47519c8fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e988a72944017eedacb55c0ccaa7374') in 0.0182108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_2DAdventureGame/Art/SugarLand/UI/CharacterPortrait.png
+  artifactKey: Guid(e8af26c6841fc05459ccaf23dbab2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/SugarLand/UI/CharacterPortrait.png using Guid(e8af26c6841fc05459ccaf23dbab2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ce4049791ee6c1d7796a3e5c7941ed2') in 0.0187761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/CakeCocoBall.png
+  artifactKey: Guid(2d0f805d8b9545f4fbe2a22cf86508f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/CakeCocoBall.png using Guid(2d0f805d8b9545f4fbe2a22cf86508f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0453e6fe7f0e581791c112182d8da142') in 0.0204166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.628083 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/VFX/CogBullet.png
+  artifactKey: Guid(c1901239babfab842a8c1cc21f6b9ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/VFX/CogBullet.png using Guid(c1901239babfab842a8c1cc21f6b9ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c15f27e1bc1c68cec9cf795852f86e') in 0.0141991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/VFX/CollectibleAmmo.png
+  artifactKey: Guid(347a7985e94a0f641932a61715620794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/VFX/CollectibleAmmo.png using Guid(347a7985e94a0f641932a61715620794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e425ba90389f5e17a2e563b5f3e071f5') in 0.0158816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_2DAdventureGame/Art/SugarLand/VFX/CollectibleHealth.png
+  artifactKey: Guid(9d3ab281567f94c4b84d23954c7d5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/SugarLand/VFX/CollectibleHealth.png using Guid(9d3ab281567f94c4b84d23954c7d5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd25e01b149b588ad38bfdc6ff48dfb5c') in 0.0171216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.490698 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/VFX/CollectibleHealth.png
+  artifactKey: Guid(04f7e98e7f07b894bb89802335516cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/VFX/CollectibleHealth.png using Guid(04f7e98e7f07b894bb89802335516cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e311269016b6be2be68c5ec50e7d3a0f') in 0.0171539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_2DAdventureGame/Art/SugarLand/Environment/Decoration_1.png
+  artifactKey: Guid(c8e02a492c72fac4199a2c8e8b2820dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/SugarLand/Environment/Decoration_1.png using Guid(c8e02a492c72fac4199a2c8e8b2820dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c395c6fc66bf40fc39dd822108a7a16c') in 0.0151623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_2DAdventureGame/Art/Ducko/Environmnent/Decoration_1.png
+  artifactKey: Guid(f5e853af8656e25428b72c63612959c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ducko/Environmnent/Decoration_1.png using Guid(f5e853af8656e25428b72c63612959c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f97fb7b927a1cde4a2e0f319e280f6e') in 0.0147788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_2DAdventureGame/Art/SugarLand/Environment/Decoration_2.png
+  artifactKey: Guid(cf5eff8f9485fc24e951fc882f39424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/SugarLand/Environment/Decoration_2.png using Guid(cf5eff8f9485fc24e951fc882f39424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87a66f9f8b4d917fa4174f082f8069b') in 0.0162794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_2DAdventureGame/Art/SugarLand/Environment/Decoration_3.png
+  artifactKey: Guid(c5ea83394845a1942b00ce0b77650251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/SugarLand/Environment/Decoration_3.png using Guid(c5ea83394845a1942b00ce0b77650251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe845a90c8b9f5ce2df7155a7589c47c') in 0.017922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115722 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/RockWallDecorations.png
+  artifactKey: Guid(aa4bedadb98112e419a2dba1968546a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/RockWallDecorations.png using Guid(aa4bedadb98112e419a2dba1968546a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eacbc32b8ca41c9538e309d2d3ff539c') in 0.0325989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/VFX/Projectile.png
+  artifactKey: Guid(5fcd4625b6e96384aaaa43e105ba7fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ruby/VFX/Projectile.png using Guid(5fcd4625b6e96384aaaa43e105ba7fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f7cbd566f63e6b1efee1379943363fe') in 0.0154338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1022.140861 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles/FirstTile.asset
+  artifactKey: Guid(1ff52dc2457c548429291e9751b923cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles/FirstTile.asset using Guid(1ff52dc2457c548429291e9751b923cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e800cff8df4b385e9b965c389a4e63a') in 0.0134167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
