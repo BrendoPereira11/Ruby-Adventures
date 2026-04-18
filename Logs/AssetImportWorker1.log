@@ -7482,3 +7482,11 @@ Memory consumption went from 164.3 MB to 156.5 MB.
 Total: 11.972100 ms (FindLiveObjects: 1.065700 ms CreateObjectMapping: 0.686500 ms MarkObjects: 5.726400 ms  DeleteObjects: 4.492300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 531.533111 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Environment/FloorWaterRoundCorners.png
+  artifactKey: Guid(cc24645db54e3d14f9b419c8fb8165cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Environment/FloorWaterRoundCorners.png using Guid(cc24645db54e3d14f9b419c8fb8165cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af1a517afcf7421b7544593636c77e4') in 0.0894587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
