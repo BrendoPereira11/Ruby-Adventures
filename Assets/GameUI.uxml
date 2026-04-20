@@ -1,7 +1,8 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&quot;); width: 393px; height: 300px; -unity-background-scale-mode: scale-to-fit;">
-        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=ec73128b64458a947a9603ad250e5956&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 163px; width: 168px; top: 57px; left: 11px;" />
-        <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&quot;); position: absolute; height: 64px; width: 218px; top: 114px; left: 162px;" />
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit; position: absolute; height: 65px; width: 221px; top: 114px; left: 160px; background-image: none;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&quot;);" />
+        </ui:VisualElement>
     </ui:VisualElement>
-    <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1;" />
+    <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=ec73128b64458a947a9603ad250e5956&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 163px; width: 168px; top: 50px; left: 10px;" />
 </ui:UXML>

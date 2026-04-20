@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 39
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -487,10 +487,10 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Tilemap Focus
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -831,9 +831,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.14813296, y: -0.74336785, z: 0}
+    m_Target: {x: -6.263727, y: -1.8884181, z: -0.012682889}
     speed: 2
-    m_Value: {x: 0.14813296, y: -0.74336785, z: 0}
+    m_Value: {x: -6.263727, y: -1.8884181, z: -0.012682889}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -883,9 +883,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.195991
+    m_Target: 10.252747
     speed: 2
-    m_Value: 6.195991
+    m_Value: 10.252747
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -961,7 +961,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: defaffffcabd0000
+      m_ExpandedIDs: 3cf6ffffdefaffffccbd0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1136,7 +1136,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_2DAdventureGame/Art/Ruby
+    - Assets/_2DAdventureGame/Art/Ruby/Tiles
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1146,17 +1146,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_2DAdventureGame/Art/Ruby
+  - Assets/_2DAdventureGame/Art/Ruby/Tiles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Trabalhos Unity\Ruby Adventures
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 58be0000
-    m_LastClickedID: 48728
-    m_ExpandedIDs: 0000000054be000056be000058be00005abe00005cbe00005ebe0000
+    scrollPos: {x: 0, y: 82}
+    m_SelectedIDs: 40c00000
+    m_LastClickedID: 49216
+    m_ExpandedIDs: 00000000e6be0000e8be0000eabe0000ecbe0000eebe0000f0be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1185,7 +1185,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000054be000056be000058be00005abe00005cbe00005ebe0000
+    m_ExpandedIDs: 00000000e6be0000e8be0000eabe0000ecbe0000eebe0000f0be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
