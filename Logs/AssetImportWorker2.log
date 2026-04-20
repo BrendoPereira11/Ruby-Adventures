@@ -1620,3 +1620,95 @@ Memory consumption went from 162.0 MB to 155.2 MB.
 Total: 11.450400 ms (FindLiveObjects: 0.973200 ms CreateObjectMapping: 0.713000 ms MarkObjects: 5.928600 ms  DeleteObjects: 3.833900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2933.114332 seconds.
+  path: Assets/Scripts/DamageZone.cs
+  artifactKey: Guid(1bdba0b3c0a1ba14e8bc5e311eed951d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DamageZone.cs using Guid(1bdba0b3c0a1ba14e8bc5e311eed951d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '453c65c0bae600d799229345f4c0847b') in 0.1981928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_2DAdventureGame/Settings/PanelSettings.asset
+  artifactKey: Guid(bfab32c9f7f36734d9c481400140aa50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_2DAdventureGame/Settings/PanelSettings.asset using Guid(bfab32c9f7f36734d9c481400140aa50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '409de6b5ed88e2a9e7c2729335bf5b2c') in 0.1352421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.855162 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e23779fde7703d41792ace495cd4c9c') in 0.0171219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.571838 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f42a457b8bd6e96726133032610bb5f3') in 0.0271962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.124528 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a93f2526960643a18c1a7b78455896') in 0.0020373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Ruby/DialogueWindow.uxml
+  artifactKey: Guid(92203c76062cfed4a8dbc91f651ec3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Ruby/DialogueWindow.uxml using Guid(92203c76062cfed4a8dbc91f651ec3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c3473b581f1689c70c8e2dba97dd977') in 0.0034891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0160919b6afc0d9fa83d586ff2c34c99') in 0.003669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030926 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_0.asset
+  artifactKey: Guid(735220e410458fc48869967e89186673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_0.asset using Guid(735220e410458fc48869967e89186673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4008e07799c30379b889c9d6a580fb') in 0.0737432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_3.asset
+  artifactKey: Guid(297fe1da51e9a4940ae45e17a8b9c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_3.asset using Guid(297fe1da51e9a4940ae45e17a8b9c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7a18071a6234b803f7ef74e41b9477') in 0.0134151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_6.asset
+  artifactKey: Guid(96321014bdaff8842aabaff52d0e6193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_6.asset using Guid(96321014bdaff8842aabaff52d0e6193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13e8ad2897ff3d24dd962d3ce4f1134e') in 0.0457027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_5.asset
+  artifactKey: Guid(79da7ee7ae457a14984ccfae351f10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Tiles/Ducko/FloorBlueGrassToVertical_5.asset using Guid(79da7ee7ae457a14984ccfae351f10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0760b5c6e7ef6258e699deaea9d3612') in 0.0148154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

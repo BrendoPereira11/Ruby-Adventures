@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.69f1 (5f8607f5118b) revision 6260231'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 16328 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brend" at "2026-04-18T18:48:44.8323923Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brend" at "2026-04-20T15:30:46.0677536Z"
 Process architecture: x64
-Date: 2026-04-18T18:48:44Z
+Date: 2026-04-20T15:30:46Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.69f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Trabalhos Unity/Ruby Adventures
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-65203
+50782
 -licensingIpc
 LicenseClient-brend
 -job-worker-count
@@ -67,12 +67,12 @@ D:/Trabalhos Unity/Ruby Adventures
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [648]  Target information:
+Player connection [32100]  Target information:
 
-Player connection [648]  * "[IP] 192.168.1.75 [Port] 0 [Flags] 2 [Guid] 133260508 [EditorId] 133260508 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPTFF2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32100]  * "[IP] 192.168.1.75 [Port] 0 [Flags] 2 [Guid] 3906535751 [EditorId] 3906535751 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPTFF2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [648] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [648] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32100] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32100] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 314.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.69f1 (5f8607f5118b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/Resources/UnitySubsystems
@@ -96,56 +96,65 @@ Direct3D:
     Vendor:   ATI
     VRAM:     8147 MB
     Driver:   32.0.21043.5001
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003716 seconds.
-- Loaded All Assemblies, in  0.394 seconds
-Native extension for WindowsStandalone target not found
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.4'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-brend"
 [Licensing::IpcConnector] LicenseClient-brend channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brend-6000.0.69" at "2026-04-18T18:48:45.6151437Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brend-6000.0.69" at "2026-04-20T15:30:46.9754818Z"
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              88c03d0fd00d4b33a4d50e8f9d2ec228
+  Correlation Id:          2ae0f070f1cbd00e558ff361ebe0181b
+  External correlation Id: 3123145706148765752
+  Machine Id:              qFlStrGZqR6WFCJgvVtCseEtzhQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-brend-6000.0.69" (connect: 0.00s, validation: 0.00s, handshake: 1.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brend-6000.0.69-notifications" at "2026-04-20T15:30:48.0862341Z"
+[Licensing::Module] Licensing Background thread has ended after 2.02s
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.141993 seconds.
+- Loaded All Assemblies, in 11.074 seconds
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.391 seconds
-Domain Reload Profiling: 781ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.372 seconds
+Domain Reload Profiling: 11443ms
+	BeginReloadAssembly (9361ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (124ms)
+	RebuildCommonClasses (542ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (193ms)
+	LoadAllAssembliesAndSetupDomain (961ms)
+		LoadAssemblies (9357ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (958ms)
+			TypeCache.Refresh (956ms)
+				TypeCache.ScanAssembly (585ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (391ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (372ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (336ms)
+		SetupLoadedEditorAssemblies (323ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (185ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (175ms)
 			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -158,17 +167,6 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              a3a9265abd784cf49952a0c7371e431a
-  Correlation Id:          c4b81d93b3ed3914446a62538f7bf73d
-  External correlation Id: 5746480006240680956
-  Machine Id:              qFlStrGZqR6WFCJgvVtCseEtzhQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-brend-6000.0.69" (connect: 0.00s, validation: 0.00s, handshake: 0.94s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brend-6000.0.69-notifications" at "2026-04-18T18:48:46.5591352Z"
-[Licensing::Module] Licensing Background thread has ended after 1.73s
-[Licensing::Module] Licensing is initialized (took 0.03s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 6872781657449-UnityPersXXXX
@@ -176,11 +174,11 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.852 seconds
+- Loaded All Assemblies, in 14.821 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -200,68 +198,372 @@ Missing types referenced from component UniversalRenderPipelineGlobalSettings on
 	UnityEngine.Rendering.Universal.OnTilePostProcessResource, Unity.RenderPipelines.Universal.Runtime (1 object)
 	UnityEngine.Rendering.VrsRenderPipelineRuntimeResources, Unity.RenderPipelines.Core.Runtime (1 object)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.783 seconds
-Domain Reload Profiling: 1632ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  1.314 seconds
+Domain Reload Profiling: 16131ms
+	BeginReloadAssembly (193ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (546ms)
-		LoadAssemblies (317ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (14528ms)
+		LoadAssemblies (13881ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (327ms)
-			TypeCache.Refresh (223ms)
-				TypeCache.ScanAssembly (205ms)
-			BuildScriptInfoCaches (88ms)
+		AnalyzeDomain (754ms)
+			TypeCache.Refresh (649ms)
+				TypeCache.ScanAssembly (631ms)
+			BuildScriptInfoCaches (89ms)
 			ResolveRequiredComponents (13ms)
-	FinalizeReload (784ms)
+	FinalizeReload (1314ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (665ms)
+		SetupLoadedEditorAssemblies (1126ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (381ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (523ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7293 unused Assets / (6.6 MB). Loaded Objects now: 8025.
-Memory consumption went from 156.2 MB to 149.6 MB.
-Total: 8.632800 ms (FindLiveObjects: 0.827400 ms CreateObjectMapping: 0.385400 ms MarkObjects: 4.753100 ms  DeleteObjects: 2.664400 ms)
+Unloading 7295 unused Assets / (6.6 MB). Loaded Objects now: 8027.
+Memory consumption went from 156.4 MB to 149.8 MB.
+Total: 8.648900 ms (FindLiveObjects: 0.906700 ms CreateObjectMapping: 0.431200 ms MarkObjects: 4.651500 ms  DeleteObjects: 2.655100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9595.995424 seconds.
-  path: Assets/_2DAdventureGame/Art/Ruby/Characters
-  artifactKey: Guid(89d53d1508a9bc841b7fd4b76a4d546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_2DAdventureGame/Art/Ruby/Characters using Guid(89d53d1508a9bc841b7fd4b76a4d546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4453fe347d56afc203a7d0e7c970a6b') in 0.0048208 seconds
+  Time since last request: 8375.096642 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/CharacterScreen_Ruby.png
+  artifactKey: Guid(104319c8e9ba60643b4f97c877dab204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/CharacterScreen_Ruby.png using Guid(104319c8e9ba60643b4f97c877dab204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cc92a3ba20b0a33ddca0f03eb2f4f4a') in 0.1266446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/CollectibleHealthDucko.png
+  artifactKey: Guid(d2c85e2fc91735446bf5a1144baf0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/CollectibleHealthDucko.png using Guid(d2c85e2fc91735446bf5a1144baf0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '613fa62dd6d261757f54d2d727cc389c') in 0.0167873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/DonutPink.png
+  artifactKey: Guid(a0dd9de06276e084481852fc9daa5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/Environment/DonutPink.png using Guid(a0dd9de06276e084481852fc9daa5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1596c25025d57364f7c9134c8d5516fd') in 0.0192766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/VFX/CoinBullet.png
+  artifactKey: Guid(da4d7156349eb0741b629c76de8b05b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/VFX/CoinBullet.png using Guid(da4d7156349eb0741b629c76de8b05b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f2d10c9971a5f6e7ca1207f8d1c1ee4') in 0.0182025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/DecorationPlug.png
+  artifactKey: Guid(0ac623e845eae29429d91aed9752a3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/Environmnent/DecorationPlug.png using Guid(0ac623e845eae29429d91aed9752a3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c62f42c37d3539b0dd0251c7d0d045e9') in 0.0179113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.766216 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/UI/UIBulletIcon.png
+  artifactKey: Guid(6fc668908b4e3f2459f6f8bc120fe46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/UI/UIBulletIcon.png using Guid(6fc668908b4e3f2459f6f8bc120fe46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dac6d6834b15e280dc1626cff5523b6') in 0.0203579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_2DAdventureGame/Art/Ducko/UI/UIDialogueBox.png
+  artifactKey: Guid(924827a9385ec3544b572966c8853b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ducko/UI/UIDialogueBox.png using Guid(924827a9385ec3544b572966c8853b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e0054eb03a34ecc29721338a4c8921f') in 0.016363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_2DAdventureGame/Art/SugarLand/UI/UIDialogueBox.png
+  artifactKey: Guid(cd17cea45c10d0943a1a8f2485b35902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/SugarLand/UI/UIDialogueBox.png using Guid(cd17cea45c10d0943a1a8f2485b35902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dabda2b8a5a80e1aab2ba8d50180c47a') in 0.0076491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIDialogueBoxBlue.png
+  artifactKey: Guid(63b34e7f72734e24b8fd406b614b51c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIDialogueBoxBlue.png using Guid(63b34e7f72734e24b8fd406b614b51c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '270b128ef1a7d97af553a7616ab93bf6') in 0.0454007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIHealthBarPink.png
+  artifactKey: Guid(c71d6f86515064a4bb3d5c78dda9a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIHealthBarPink.png using Guid(c71d6f86515064a4bb3d5c78dda9a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0138d2b39f1402e3087fbc2122c3b668') in 0.0400031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_2DAdventureGame/Art/Ducko/UI/UIHealthFrame.png
+  artifactKey: Guid(b47cdbd2062c5e64ba5a0bf3f6b045b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ducko/UI/UIHealthFrame.png using Guid(b47cdbd2062c5e64ba5a0bf3f6b045b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b651fedbbf6943531b188180da7c37b7') in 0.094861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/UI/UIHealthFrame.png
+  artifactKey: Guid(2e9a3b284be34c14e809fdcd0f799ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/UI/UIHealthFrame.png using Guid(2e9a3b284be34c14e809fdcd0f799ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a995624fc7ff68fffe4d971476636d6') in 0.0463905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.859288 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIHealthFrameBlue.png
+  artifactKey: Guid(4e65018de1d892647ace9c1d6510e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIHealthFrameBlue.png using Guid(4e65018de1d892647ace9c1d6510e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42ecc3b10c2a0b01afbedcb6df34dfbb') in 0.1185761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.255869 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/Title.png
+  artifactKey: Guid(772a6fef6bd2cbe4d834ddf1b135c591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/Title.png using Guid(772a6fef6bd2cbe4d834ddf1b135c591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f456133eb12907ee03226b16013d7a5') in 0.0499362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.641267 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dbfbd241ecc74476685ce32e0d24b67') in 0.0059546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.707098 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65f54b8dfb64cf477d4e7b37b443d29c') in 0.1912178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.625127 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Ducko/MainUI.uxml
+  artifactKey: Guid(beb28639fb7794449a5d478deb002a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Ducko/MainUI.uxml using Guid(beb28639fb7794449a5d478deb002a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c4504b8df6f61e77dc0dcd6861a031a') in 0.0164877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/RobotCounter.uxml
+  artifactKey: Guid(f9938e8b2012a4aa081187560303389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/RobotCounter.uxml using Guid(f9938e8b2012a4aa081187560303389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df8eeb9e7b40efee07808a25095780ab') in 0.0256388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/StartScreen.uxml
+  artifactKey: Guid(26e892d5c510e484aa9e78c2ffe58e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/StartScreen.uxml using Guid(26e892d5c510e484aa9e78c2ffe58e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'becf1f46bfb39be0bc6d1679752138c1') in 0.0081498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.454248 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(d7114d836eb63ef489976ef05ae3b8a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainScene.unity using Guid(d7114d836eb63ef489976ef05ae3b8a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b8e2bcc51d35401c3d771b43f7a8a1d') in 0.0142647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 355.746697 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1f0cfc7fa59b583061db832d2a17c4f') in 0.0016507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.660752 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed8465a2e60b901d1caa98a73f0cd7a5') in 0.0507856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.171918 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/WinScreen.png
+  artifactKey: Guid(d46766d63d5ca44c6b1a4d318b1eaf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/WinScreen.png using Guid(d46766d63d5ca44c6b1a4d318b1eaf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2829a6849952764e341e6e1afe6c01ea') in 0.0205314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/LoseScreen.png
+  artifactKey: Guid(68999694f4e00437a8c4f0b6053e3d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/LoseScreen.png using Guid(68999694f4e00437a8c4f0b6053e3d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c11ee0d917726c9633f31fb9d915467') in 0.0204548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_2DAdventureGame/Art/SugarLand/Environment/SprinklesChoc.png
+  artifactKey: Guid(cb5f48d76692f0e4eba2c2bcce070ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/SugarLand/Environment/SprinklesChoc.png using Guid(cb5f48d76692f0e4eba2c2bcce070ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caba0276e1e0621d46e6f397221dd49b') in 0.0126077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4356a4e0efafe2da4e825d4a5b22b180') in 0.0014037 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.582572 seconds.
-  path: Assets/_2DAdventureGame/Art/Ruby/Tiles/Game Palette.prefab
-  artifactKey: Guid(3de2852ceaeca9d4db73f346253ac74a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles/Game Palette.prefab using Guid(3de2852ceaeca9d4db73f346253ac74a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17521b58303b5ae381e3c625a0914854') in 0.1940453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000015 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/StartScreen.uss
+  artifactKey: Guid(21bbb292f8e00ad4c94d13b26b2d183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/StartScreen.uss using Guid(21bbb292f8e00ad4c94d13b26b2d183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71def605321008e4bd8ab4b05a2b3c1c') in 0.0010053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 123.563429 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(d7114d836eb63ef489976ef05ae3b8a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/MainScene.unity using Guid(d7114d836eb63ef489976ef05ae3b8a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42f2d1e111d2c755f5f0ab2178043e38') in 0.0120622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 12.701690 seconds.
+  path: Assets/_2DAdventureGame/Settings/PanelSettings.asset
+  artifactKey: Guid(bfab32c9f7f36734d9c481400140aa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Settings/PanelSettings.asset using Guid(bfab32c9f7f36734d9c481400140aa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e9329ae9f9e2989ec697a8f893fea9c') in 0.0175247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 1350.181955 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c10278b209723ab20327d4b5c353c79a') in 0.0022559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863023 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5e7ad1f1d527705aa9ccf71ba8f726b') in 0.0278625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.972 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.LightmapSamplingSettings, Unity.RenderPipelines.Core.Runtime (1 object)
+	UnityEngine.Rendering.RenderingDebuggerRuntimeResources, Unity.RenderPipelines.Core.Runtime (1 object)
+	UnityEngine.Rendering.URPReflectionProbeSettings, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.UnifiedRayTracing.RayTracingRenderPipelineResources, Unity.UnifiedRayTracing.Runtime (1 object)
+	UnityEngine.Rendering.Universal.OnTilePostProcessResource, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.VrsRenderPipelineRuntimeResources, Unity.RenderPipelines.Core.Runtime (1 object)
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.909 seconds
+Domain Reload Profiling: 1881ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (572ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (269ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7296 unused Assets / (6.8 MB). Loaded Objects now: 8065.
+Memory consumption went from 162.8 MB to 156.0 MB.
+Total: 10.587500 ms (FindLiveObjects: 1.131100 ms CreateObjectMapping: 0.604300 ms MarkObjects: 5.286100 ms  DeleteObjects: 3.564400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 168.244690 seconds.
+  path: Assets/GameUI.uxml
+  artifactKey: Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameUI.uxml using Guid(99f5ec5b6caef70489ba3e26894ffb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25a3b5f20503dcd02d1ac4bc506c5194') in 0.0297651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.393389 seconds.
+  path: Assets/_2DAdventureGame/Art/Ruby/Tiles/Game Palette.prefab
+  artifactKey: Guid(3de2852ceaeca9d4db73f346253ac74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Art/Ruby/Tiles/Game Palette.prefab using Guid(3de2852ceaeca9d4db73f346253ac74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dfca4420c9a739d483c6d60327cc5b9') in 0.7149979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
 
