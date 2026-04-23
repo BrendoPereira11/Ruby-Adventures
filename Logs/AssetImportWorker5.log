@@ -544,3 +544,39 @@ Memory consumption went from 163.8 MB to 157.2 MB.
 Total: 10.245400 ms (FindLiveObjects: 1.131000 ms CreateObjectMapping: 0.532900 ms MarkObjects: 5.029200 ms  DeleteObjects: 3.551200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1329.044792 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/ExplosionEffect.prefab
+  artifactKey: Guid(96e9cd9955be74842b5d6b2e427ffe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/ExplosionEffect.prefab using Guid(96e9cd9955be74842b5d6b2e427ffe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c631f027bf8f97a1f09bcd2d420760ef') in 0.4604031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectDucko.prefab
+  artifactKey: Guid(b5278432ac05a420585765882bca6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectDucko.prefab using Guid(b5278432ac05a420585765882bca6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8df470a26e14d84b7b0b73cf652f4e45') in 0.0231511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectRuby.prefab
+  artifactKey: Guid(2d118a68afb70451b968ccf62b07303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/SmokeEffectRuby.prefab using Guid(2d118a68afb70451b968ccf62b07303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c850adef453957e2fa9cd672b3cdbf58') in 0.01302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/HitEffectCandy.prefab
+  artifactKey: Guid(b038c236abab4c44d86cc09e4b272ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_2DAdventureGame/Tutorial_Demo/Demo_Prefabs/VFX/HitEffectCandy.prefab using Guid(b038c236abab4c44d86cc09e4b272ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2817d25038c4916b21181052af7fc392') in 0.0164828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
