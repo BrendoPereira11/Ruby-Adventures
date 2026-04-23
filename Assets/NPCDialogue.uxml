@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BackGround" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/UIDialogueBox.png?fileID=21300000&amp;guid=c4592e9bd029fcc45843314f2192f59e&amp;type=3#UIDialogueBox&quot;); width: 423px; position: absolute; height: 169px; top: 293px; left: 139px; right: 629px; bottom: 172px;">
+        <ui:Label text="Mermão, me ajuda que os robô &#10;tão atacado!&#10;" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 25px; padding-right: 25px; padding-bottom: 25px; padding-left: 25px; color: rgb(255, 55, 42); -unity-font-definition: resource(&apos;FlatSkin/Font/Roboto-Black&apos;); font-size: 24px; white-space: normal; position: absolute; top: 29px; left: 27px; width: 448px; height: 105px;" />
+    </ui:VisualElement>
+</ui:UXML>
