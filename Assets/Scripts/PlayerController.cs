@@ -3,49 +3,50 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
 public class PlayerController : MonoBehaviour
 {
-    // Variables related to player character movement
+    // Movement
     public InputAction MoveAction;
     Rigidbody2D rigidbody2d;
     Vector2 move;
     public float speed = 3.0f;
 
-    // Variables related to the health system
+    // Health
     public int maxHealth = 5;
     public int health { get { return currentHealth; } }
     int currentHealth;
 
-    // Variables related to temporary invincibility
+    // Invincibility
     public float timeInvincible = 2.0f;
     bool isInvincible;
     float damageCooldown;
 
-    // Variables related to Animation
+    // Animation
     Animator animator;
     Vector2 moveDirection = new Vector2(1, 0);
 
-    // // Variables related to Projectile
+    // Projectile
     public GameObject projectilePrefab;
 
+    // 🔊 AUDIO CLIPS (ISSO QUE FALTAVA)
+    public AudioClip throwClip;
+    public AudioClip hitClip;
+    public AudioClip walkClip;
 
-    // Start is called before the first frame update
+    AudioSource audioSource;
+
     void Start()
     {
         MoveAction.Enable();
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         move = MoveAction.ReadValue<Vector2>();
-        //Debug.Log(move);
-
 
         if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
         {
@@ -57,6 +58,14 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Look Y", moveDirection.y);
         animator.SetFloat("Speed", move.magnitude);
 
+        // 🔊 som de andar (simples)
+        if (move.magnitude > 0.1f)
+        {
+            if (!audioSource.isPlaying)
+            {
+                PlaySound(walkClip);
+            }
+        }
 
         if (isInvincible)
         {
@@ -67,12 +76,10 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-
         if (Input.GetKeyDown(KeyCode.C))
         {
             Launch();
         }
-
 
         if (Input.GetKeyDown(KeyCode.X))
         {
@@ -80,17 +87,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-
-
-    // FixedUpdate has the same call rate as the physics system 
     void FixedUpdate()
     {
         Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
         rigidbody2d.MovePosition(position);
     }
-
-
 
     public void ChangeHealth(int amount)
     {
@@ -103,11 +104,14 @@ public class PlayerController : MonoBehaviour
             isInvincible = true;
             damageCooldown = timeInvincible;
             animator.SetTrigger("Hit");
+
+            // 🔊 som de dano
+            PlaySound(hitClip);
         }
+
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         UIHandler.instance.SetHealthValue(currentHealth / (float)maxHealth);
     }
-
 
     void Launch()
     {
@@ -115,8 +119,10 @@ public class PlayerController : MonoBehaviour
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(moveDirection, 300);
         animator.SetTrigger("Launch");
-    }
 
+        // 🔊 som de ataque
+        PlaySound(throwClip);
+    }
 
     void FindFriend()
     {
@@ -131,5 +137,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    public void PlaySound(AudioClip clip)
+    {
+        if (clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
+    }
 }
