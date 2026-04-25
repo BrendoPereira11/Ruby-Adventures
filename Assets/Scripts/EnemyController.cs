@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    // Public variables
     public float speed;
     public bool vertical;
-    public float changeTime = 3.0f;
+    public float changeTime;
+    public ParticleSystem smokeEffect;
 
-    // 🔊 NOVOS CLIPS
+    // 🔊 NOVOS ÁUDIOS
     public AudioClip hitClip;
     public AudioClip fixClip;
 
+    // Private variables
     Rigidbody2D rigidbody2d;
     Animator animator;
     AudioSource audioSource;
@@ -24,8 +27,7 @@ public class EnemyController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
-
+        audioSource = GetComponent<AudioSource>(); // 🔊 pega o áudio
         timer = changeTime;
     }
 
@@ -51,13 +53,13 @@ public class EnemyController : MonoBehaviour
 
         if (vertical)
         {
-            position.y += speed * direction * Time.deltaTime;
+            position.y = position.y + speed * direction * Time.deltaTime;
             animator.SetFloat("Move X", 0);
             animator.SetFloat("Move Y", direction);
         }
         else
         {
-            position.x += speed * direction * Time.deltaTime;
+            position.x = position.x + speed * direction * Time.deltaTime;
             animator.SetFloat("Move X", direction);
             animator.SetFloat("Move Y", 0);
         }
@@ -67,7 +69,7 @@ public class EnemyController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerController player = other.GetComponent<PlayerController>();
+        PlayerController player = other.gameObject.GetComponent<PlayerController>();
 
         if (player != null)
         {
@@ -75,24 +77,21 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    // 🔊 SOM AO SER ATINGIDO (ex: pelo projétil)
+    public void PlayHitSound()
     {
-        // 🔊 SOM DE ACERTO (ANTES DE DESTRUIR)
         if (audioSource != null && hitClip != null)
         {
             audioSource.PlayOneShot(hitClip);
         }
-
-        Destroy(gameObject);
     }
 
     public void Fix()
     {
         broken = false;
-
         rigidbody2d.simulated = false;
 
-        // 🔊 PARA som de movimento
+        // 🔊 PARA som contínuo (se tiver)
         if (audioSource != null)
         {
             audioSource.Stop();
@@ -105,5 +104,6 @@ public class EnemyController : MonoBehaviour
         }
 
         animator.SetTrigger("Fixed");
+        smokeEffect.Stop();
     }
 }
